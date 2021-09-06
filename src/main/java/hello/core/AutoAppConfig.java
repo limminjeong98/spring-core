@@ -7,7 +7,7 @@ import org.springframework.context.annotation.FilterType;
 @Configuration
 @ComponentScan(
         basePackages = "hello.core", // 지정하지 않아도 현재 폴더(hello.core) 하위로 componentscan 된다.
-//basePackageClasses =
+//        basePackageClasses =
 //        basePackages = "hello.core.member", 이렇게 하면 order랑 discount는 componentscan이 안된다
         excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Configuration.class)
 )
