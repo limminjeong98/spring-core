@@ -21,7 +21,6 @@ public class ComponentFilterAppConfigTest {
         BeanA beanA = ac.getBean("beanA", BeanA.class);
         assertThat(beanA).isNotNull();
 
-
         /**
          * BeanB beanB = ac.getBean("beanB", BeanB.class);
          * beanB는 조회하는 순간 오류남

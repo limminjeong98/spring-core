@@ -14,6 +14,4 @@ import org.springframework.context.annotation.FilterType;
 // AppConfig 파일과 충돌나지 않게 하려고
 
 public class AutoAppConfig {
-
-
 }

@@ -30,7 +30,7 @@ public class ConfigurationSingletonTest {
 
         assertThat(memberService.getMemberRepository()).isSameAs(memberRepository);
         assertThat(orderService.getMemberRepository()).isSameAs(memberRepository);
-//        Assertions.assertThat 상태에서 static import
+//        Assertions.assertThat 상태에서 Alt Enter 해서 import하고 -> Alt Enter 해서 static import
     }
 
     @Test
